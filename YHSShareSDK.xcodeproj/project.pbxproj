@@ -7,50 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		715C14F41E9F0D2A00A2459F /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C14F31E9F0D2A00A2459F /* ShareView.m */; };
+		715C14FB1E9F22A300A2459F /* shareChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C14FA1E9F22A300A2459F /* shareChildView.m */; };
 		71B6E31C1E9C68DD00DBACDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E31B1E9C68DD00DBACDF /* main.m */; };
 		71B6E31F1E9C68DD00DBACDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E31E1E9C68DD00DBACDF /* AppDelegate.m */; };
 		71B6E3221E9C68DD00DBACDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E3211E9C68DD00DBACDF /* ViewController.m */; };
 		71B6E3251E9C68DD00DBACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B6E3231E9C68DD00DBACDF /* Main.storyboard */; };
 		71B6E3271E9C68DD00DBACDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B6E3261E9C68DD00DBACDF /* Assets.xcassets */; };
 		71B6E32A1E9C68DD00DBACDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B6E3281E9C68DD00DBACDF /* LaunchScreen.storyboard */; };
-		71B6E3351E9C68DD00DBACDF /* YHSShareSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E3341E9C68DD00DBACDF /* YHSShareSDKTests.m */; };
-		71B6E3401E9C68DD00DBACDF /* YHSShareSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E33F1E9C68DD00DBACDF /* YHSShareSDKUITests.m */; };
+		71B6E3551E9C70E100DBACDF /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E3541E9C70E100DBACDF /* ShareManager.m */; };
+		71E086AA1E9CDF8100F71E59 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E086A81E9CDF8100F71E59 /* ShareViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		71B6E3311E9C68DD00DBACDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71B6E30F1E9C68DD00DBACDF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71B6E3161E9C68DD00DBACDF;
-			remoteInfo = YHSShareSDK;
-		};
-		71B6E33C1E9C68DD00DBACDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71B6E30F1E9C68DD00DBACDF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71B6E3161E9C68DD00DBACDF;
-			remoteInfo = YHSShareSDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		715C14F21E9F0D2A00A2459F /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		715C14F31E9F0D2A00A2459F /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		715C14F51E9F14EF00A2459F /* YHSShare.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSShare.pch; sourceTree = "<group>"; };
+		715C14F91E9F22A300A2459F /* shareChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shareChildView.h; sourceTree = "<group>"; };
+		715C14FA1E9F22A300A2459F /* shareChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shareChildView.m; sourceTree = "<group>"; };
 		71B6E3171E9C68DD00DBACDF /* YHSShareSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHSShareSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B6E31B1E9C68DD00DBACDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71B6E31D1E9C68DD00DBACDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71B6E31E1E9C68DD00DBACDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71B6E3201E9C68DD00DBACDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71B6E3211E9C68DD00DBACDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71B6E3201E9C68DD00DBACDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		71B6E3211E9C68DD00DBACDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		71B6E3241E9C68DD00DBACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B6E3261E9C68DD00DBACDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B6E3291E9C68DD00DBACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B6E32B1E9C68DD00DBACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71B6E3301E9C68DD00DBACDF /* YHSShareSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHSShareSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B6E3341E9C68DD00DBACDF /* YHSShareSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSShareSDKTests.m; sourceTree = "<group>"; };
-		71B6E3361E9C68DD00DBACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71B6E33B1E9C68DD00DBACDF /* YHSShareSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHSShareSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B6E33F1E9C68DD00DBACDF /* YHSShareSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSShareSDKUITests.m; sourceTree = "<group>"; };
-		71B6E3411E9C68DD00DBACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B6E3531E9C70E100DBACDF /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		71B6E3541E9C70E100DBACDF /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
+		71E086A71E9CDF8100F71E59 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		71E086A81E9CDF8100F71E59 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,29 +49,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71B6E32D1E9C68DD00DBACDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B6E3381E9C68DD00DBACDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7191633A1E9F4D7D007B2044 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 		71B6E30E1E9C68DD00DBACDF = {
 			isa = PBXGroup;
 			children = (
 				71B6E3191E9C68DD00DBACDF /* YHSShareSDK */,
-				71B6E3331E9C68DD00DBACDF /* YHSShareSDKTests */,
-				71B6E33E1E9C68DD00DBACDF /* YHSShareSDKUITests */,
 				71B6E3181E9C68DD00DBACDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				71B6E3171E9C68DD00DBACDF /* YHSShareSDK.app */,
-				71B6E3301E9C68DD00DBACDF /* YHSShareSDKTests.xctest */,
-				71B6E33B1E9C68DD00DBACDF /* YHSShareSDKUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +78,12 @@
 		71B6E3191E9C68DD00DBACDF /* YHSShareSDK */ = {
 			isa = PBXGroup;
 			children = (
+				7191633A1E9F4D7D007B2044 /* SDK */,
 				71B6E31D1E9C68DD00DBACDF /* AppDelegate.h */,
 				71B6E31E1E9C68DD00DBACDF /* AppDelegate.m */,
-				71B6E3201E9C68DD00DBACDF /* ViewController.h */,
-				71B6E3211E9C68DD00DBACDF /* ViewController.m */,
+				71B6E34E1E9C697300DBACDF /* M */,
+				71B6E34F1E9C697300DBACDF /* V */,
+				71B6E34D1E9C697300DBACDF /* C */,
 				71B6E3231E9C68DD00DBACDF /* Main.storyboard */,
 				71B6E3261E9C68DD00DBACDF /* Assets.xcassets */,
 				71B6E3281E9C68DD00DBACDF /* LaunchScreen.storyboard */,
@@ -118,26 +97,40 @@
 			isa = PBXGroup;
 			children = (
 				71B6E31B1E9C68DD00DBACDF /* main.m */,
+				715C14F51E9F14EF00A2459F /* YHSShare.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		71B6E3331E9C68DD00DBACDF /* YHSShareSDKTests */ = {
+		71B6E34D1E9C697300DBACDF /* C */ = {
 			isa = PBXGroup;
 			children = (
-				71B6E3341E9C68DD00DBACDF /* YHSShareSDKTests.m */,
-				71B6E3361E9C68DD00DBACDF /* Info.plist */,
+				71B6E3201E9C68DD00DBACDF /* ViewController.h */,
+				71B6E3211E9C68DD00DBACDF /* ViewController.m */,
+				71E086A71E9CDF8100F71E59 /* ShareViewController.h */,
+				71E086A81E9CDF8100F71E59 /* ShareViewController.m */,
 			);
-			path = YHSShareSDKTests;
+			path = C;
 			sourceTree = "<group>";
 		};
-		71B6E33E1E9C68DD00DBACDF /* YHSShareSDKUITests */ = {
+		71B6E34E1E9C697300DBACDF /* M */ = {
 			isa = PBXGroup;
 			children = (
-				71B6E33F1E9C68DD00DBACDF /* YHSShareSDKUITests.m */,
-				71B6E3411E9C68DD00DBACDF /* Info.plist */,
+				71B6E3531E9C70E100DBACDF /* ShareManager.h */,
+				71B6E3541E9C70E100DBACDF /* ShareManager.m */,
 			);
-			path = YHSShareSDKUITests;
+			path = M;
+			sourceTree = "<group>";
+		};
+		71B6E34F1E9C697300DBACDF /* V */ = {
+			isa = PBXGroup;
+			children = (
+				715C14F21E9F0D2A00A2459F /* ShareView.h */,
+				715C14F31E9F0D2A00A2459F /* ShareView.m */,
+				715C14F91E9F22A300A2459F /* shareChildView.h */,
+				715C14FA1E9F22A300A2459F /* shareChildView.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,42 +153,6 @@
 			productReference = 71B6E3171E9C68DD00DBACDF /* YHSShareSDK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71B6E32F1E9C68DD00DBACDF /* YHSShareSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71B6E3471E9C68DD00DBACDF /* Build configuration list for PBXNativeTarget "YHSShareSDKTests" */;
-			buildPhases = (
-				71B6E32C1E9C68DD00DBACDF /* Sources */,
-				71B6E32D1E9C68DD00DBACDF /* Frameworks */,
-				71B6E32E1E9C68DD00DBACDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71B6E3321E9C68DD00DBACDF /* PBXTargetDependency */,
-			);
-			name = YHSShareSDKTests;
-			productName = YHSShareSDKTests;
-			productReference = 71B6E3301E9C68DD00DBACDF /* YHSShareSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		71B6E33A1E9C68DD00DBACDF /* YHSShareSDKUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71B6E34A1E9C68DD00DBACDF /* Build configuration list for PBXNativeTarget "YHSShareSDKUITests" */;
-			buildPhases = (
-				71B6E3371E9C68DD00DBACDF /* Sources */,
-				71B6E3381E9C68DD00DBACDF /* Frameworks */,
-				71B6E3391E9C68DD00DBACDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71B6E33D1E9C68DD00DBACDF /* PBXTargetDependency */,
-			);
-			name = YHSShareSDKUITests;
-			productName = YHSShareSDKUITests;
-			productReference = 71B6E33B1E9C68DD00DBACDF /* YHSShareSDKUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,18 +166,6 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 54M7R3QC2M;
 						ProvisioningStyle = Automatic;
-					};
-					71B6E32F1E9C68DD00DBACDF = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 54M7R3QC2M;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 71B6E3161E9C68DD00DBACDF;
-					};
-					71B6E33A1E9C68DD00DBACDF = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 54M7R3QC2M;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 71B6E3161E9C68DD00DBACDF;
 					};
 				};
 			};
@@ -238,8 +183,6 @@
 			projectRoot = "";
 			targets = (
 				71B6E3161E9C68DD00DBACDF /* YHSShareSDK */,
-				71B6E32F1E9C68DD00DBACDF /* YHSShareSDKTests */,
-				71B6E33A1E9C68DD00DBACDF /* YHSShareSDKUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,20 +198,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71B6E32E1E9C68DD00DBACDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B6E3391E9C68DD00DBACDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,42 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B6E3551E9C70E100DBACDF /* ShareManager.m in Sources */,
 				71B6E3221E9C68DD00DBACDF /* ViewController.m in Sources */,
 				71B6E31F1E9C68DD00DBACDF /* AppDelegate.m in Sources */,
+				71E086AA1E9CDF8100F71E59 /* ShareViewController.m in Sources */,
+				715C14FB1E9F22A300A2459F /* shareChildView.m in Sources */,
+				715C14F41E9F0D2A00A2459F /* ShareView.m in Sources */,
 				71B6E31C1E9C68DD00DBACDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71B6E32C1E9C68DD00DBACDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71B6E3351E9C68DD00DBACDF /* YHSShareSDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71B6E3371E9C68DD00DBACDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71B6E3401E9C68DD00DBACDF /* YHSShareSDKUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		71B6E3321E9C68DD00DBACDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71B6E3161E9C68DD00DBACDF /* YHSShareSDK */;
-			targetProxy = 71B6E3311E9C68DD00DBACDF /* PBXContainerItemProxy */;
-		};
-		71B6E33D1E9C68DD00DBACDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71B6E3161E9C68DD00DBACDF /* YHSShareSDK */;
-			targetProxy = 71B6E33C1E9C68DD00DBACDF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		71B6E3231E9C68DD00DBACDF /* Main.storyboard */ = {
@@ -430,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 54M7R3QC2M;
+				GCC_PREFIX_HEADER = YHSShareSDK/YHSShare.pch;
 				INFOPLIST_FILE = YHSShareSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yanhansi.YHSShareSDK;
@@ -442,60 +347,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 54M7R3QC2M;
+				GCC_PREFIX_HEADER = YHSShareSDK/YHSShare.pch;
 				INFOPLIST_FILE = YHSShareSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yanhansi.YHSShareSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		71B6E3481E9C68DD00DBACDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 54M7R3QC2M;
-				INFOPLIST_FILE = YHSShareSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yanhansi.YHSShareSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHSShareSDK.app/YHSShareSDK";
-			};
-			name = Debug;
-		};
-		71B6E3491E9C68DD00DBACDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 54M7R3QC2M;
-				INFOPLIST_FILE = YHSShareSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yanhansi.YHSShareSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHSShareSDK.app/YHSShareSDK";
-			};
-			name = Release;
-		};
-		71B6E34B1E9C68DD00DBACDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 54M7R3QC2M;
-				INFOPLIST_FILE = YHSShareSDKUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yanhansi.YHSShareSDKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = YHSShareSDK;
-			};
-			name = Debug;
-		};
-		71B6E34C1E9C68DD00DBACDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 54M7R3QC2M;
-				INFOPLIST_FILE = YHSShareSDKUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yanhansi.YHSShareSDKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = YHSShareSDK;
 			};
 			name = Release;
 		};
@@ -518,22 +374,7 @@
 				71B6E3461E9C68DD00DBACDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		71B6E3471E9C68DD00DBACDF /* Build configuration list for PBXNativeTarget "YHSShareSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71B6E3481E9C68DD00DBACDF /* Debug */,
-				71B6E3491E9C68DD00DBACDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		71B6E34A1E9C68DD00DBACDF /* Build configuration list for PBXNativeTarget "YHSShareSDKUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71B6E34B1E9C68DD00DBACDF /* Debug */,
-				71B6E34C1E9C68DD00DBACDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

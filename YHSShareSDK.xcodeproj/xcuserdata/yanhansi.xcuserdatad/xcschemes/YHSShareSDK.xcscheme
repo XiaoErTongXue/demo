@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71B6E32F1E9C68DD00DBACDF"
-               BuildableName = "YHSShareSDKTests.xctest"
-               BlueprintName = "YHSShareSDKTests"
-               ReferencedContainer = "container:YHSShareSDK.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71B6E33A1E9C68DD00DBACDF"
-               BuildableName = "YHSShareSDKUITests.xctest"
-               BlueprintName = "YHSShareSDKUITests"
-               ReferencedContainer = "container:YHSShareSDK.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
